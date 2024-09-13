@@ -1,4 +1,4 @@
-import {UserInterface} from "./User.interface";
+import { UserInterface } from "./User.interface";
 
 export interface TaskInterface {
     id: string;
@@ -6,4 +6,6 @@ export interface TaskInterface {
     description: string;
     assignedTo: UserInterface[];
     columnId: string;
+    status: 'todo' | 'in-progress' | 'done';
+    dueDate: string;
 }

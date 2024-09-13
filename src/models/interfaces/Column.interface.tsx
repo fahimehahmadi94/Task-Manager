@@ -1,4 +1,4 @@
-import {TaskInterface} from "./Task.interface";
+import { TaskInterface } from "./Task.interface";
 
 export interface ColumnInterface {
     id: string;
